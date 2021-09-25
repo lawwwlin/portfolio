@@ -5,7 +5,7 @@ import '../styles/layout.scss';
 const Layout = ({ pageTitle, children }) => {
   return (
     <div className="container">
-      <title>{pageTitle}</title>
+      <title>Lawrence Lin</title>
       <TopNav />
       <main>
         <h1>{pageTitle}</h1>

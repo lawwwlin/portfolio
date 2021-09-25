@@ -4,8 +4,8 @@ import '../styles/global.scss';
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+    <Layout pageTitle="const Lawrence = {};">
+      <p>Lawrence.occupation = 'full-stack developer';</p>
     </Layout>
   )
 };
