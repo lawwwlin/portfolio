@@ -5,15 +5,17 @@ const topNav = () => {
   return (
     <header>
       <div className='container'>
-        <div className='topNav'> 
+        <div className='inner-header'> 
           <div className='logo'>
-            <Link className='nav-link' to='/'>home</Link>
+            <Link to='/'>HOME</Link>
           </div>
-          <nav className="navigation">
-            <div className="nav-item"><Link className='nav-link' to='/about'>ABOUT</Link></div>
-            <div className="nav-item"><Link className='nav-link' to='/projects'>PROJECTS</Link></div>
-            <div className="nav-item"><Link className='nav-link' to='/contact'>CONTACT</Link></div>
-          </nav>
+          <div className='navigation'>
+            <nav>
+              <Link to='/about'>ABOUT</Link>
+              <Link to='/projects'>PROJECTS</Link>
+              <Link to='/contact'>CONTACT</Link>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
