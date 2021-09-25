@@ -1,10 +1,9 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import Layout from '../components/layout';
 
 const NotFoundPage = () => {
   return (
-    <Layout pageTitle='Not found'>
+    <div>
       <p >
         Sorry{" "}
         <span role="img" aria-label="Pensive emoji">
@@ -22,7 +21,7 @@ const NotFoundPage = () => {
         <br />
         <Link to="/">Go home</Link>.
       </p>
-    </Layout>
+    </div>
   )
 };
 

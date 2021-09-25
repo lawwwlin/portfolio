@@ -1,12 +1,15 @@
 import * as React from 'react';
-import Layout from '../components/layout';
 import '../styles/styles.scss';
+import TopNav from '../components/topNav';
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Hi, I'm Lawrence Lin">
+    <div>
+      <title>Lawrence Lin</title>
+      <TopNav />
+      <h1>Hi, I'm Lawrence Lin</h1>
       <h2>I'm a full-stack web developer</h2>
-    </Layout>
+    </div>
   );
 };
 

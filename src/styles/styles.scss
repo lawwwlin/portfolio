@@ -7,9 +7,9 @@ p {
 
 html,
 body {
-  margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: lavenderblush;
+  font-size: 16px;
 };
 
 // header
@@ -43,12 +43,11 @@ header {
           font-size: 0.75em;
           color: black;
           &:last-child {
-
+            margin-right: 0px;
           }
         }
       }
     };
-
   }
 }
 
@@ -68,11 +67,4 @@ header {
     width: 768px;
     min-width: 768px;
   }
-
 };
-// main {
-//   margin: 1em;
-//   max-width: 500px;
-//   background-color: pink;
-//   text-align: center;
-// }
