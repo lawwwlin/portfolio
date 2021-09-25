@@ -1,16 +1,13 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+import TopNav from '../components/topNav';
+
+// const temp = [{text:'home', link:'/'}, {text:'about', link:'/about'}, {text:'projects', link:'/projects'}];
 
 const Layout = ({ pageTitle, children }) => {
   return (
     <div>
       <title>{pageTitle}</title>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-        </ul>
-      </nav>
+      <TopNav />
       <main>
         <h1>{pageTitle}</h1>
         {children}
