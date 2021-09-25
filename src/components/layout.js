@@ -1,11 +1,10 @@
 import * as React from 'react';
 import TopNav from '../components/topNav';
-
-// const temp = [{text:'home', link:'/'}, {text:'about', link:'/about'}, {text:'projects', link:'/projects'}];
+import '../components/topNav.scss';
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div>
+    <div className="container">
       <title>{pageTitle}</title>
       <TopNav />
       <main>
