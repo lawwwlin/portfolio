@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import '../components/topNav.scss';
+import '../styles/topNav.scss';
 
 const topNav = () => {
   return (

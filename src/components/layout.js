@@ -1,6 +1,6 @@
 import * as React from 'react';
 import TopNav from '../components/topNav';
-import '../components/topNav.scss';
+import '../styles/layout.scss';
 
 const Layout = ({ pageTitle, children }) => {
   return (
