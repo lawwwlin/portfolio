@@ -1,9 +1,9 @@
 .topNav {
   background-color: aqua;
   display: flex;
-  padding-left: 0;
+  justify-content: flex-end;
+  padding: 1em;
   .nav-item {
-    margin: 1em;
     padding-right: 2rem;
   }
 }
