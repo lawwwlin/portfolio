@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import '../styles/topNav.scss';
 
 const topNav = () => {
   return (

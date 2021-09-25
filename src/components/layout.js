@@ -1,6 +1,5 @@
 import * as React from 'react';
 import TopNav from '../components/topNav';
-import '../styles/layout.scss';
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -12,7 +11,7 @@ const Layout = ({ pageTitle, children }) => {
         {children}
       </main>
     </div>
-  )
+  );
 };
 
 export default Layout;
