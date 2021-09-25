@@ -22,7 +22,7 @@ const NotFoundPage = () => {
         <Link to="/">Go home</Link>.
       </p>
     </div>
-  )
+  );
 };
 
 export default NotFoundPage;
