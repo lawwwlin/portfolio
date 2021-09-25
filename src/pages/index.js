@@ -4,8 +4,8 @@ import '../styles/global.scss';
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="const Lawrence = {};">
-      <p>Lawrence.occupation = 'full-stack developer';</p>
+    <Layout pageTitle="Hi, I'm Lawrence Lin">
+      <h2>I'm a full-stack web developer</h2>
     </Layout>
   )
 };

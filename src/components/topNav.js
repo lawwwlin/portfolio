@@ -5,8 +5,8 @@ import '../styles/topNav.scss';
 const topNav = () => {
   return (
     <nav className="topNav">
-      <div className="nav-item"><Link to='/'>home</Link></div>
-      <div className="nav-item"><Link to='/about'>about</Link></div>
+      <div className="nav-item"><Link className='nav-link' to='/'>HOME</Link></div>
+      <div className="nav-item"><Link className='nav-link' to='/about'>ABOUT</Link></div>
     </nav>
   )
 };
