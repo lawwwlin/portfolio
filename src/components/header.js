@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faInfoCircle, faPhoneSquare, faFileCode } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
@@ -11,9 +13,9 @@ const Header = () => {
           </div>
           <div className='navigation'>
             <nav>
-              <Link to='/about'>ABOUT</Link>
-              <Link to='/projects'>PROJECTS</Link>
-              <Link to='/contact'>CONTACT</Link>
+              <Link to='/about'><FontAwesomeIcon icon={faInfoCircle} /> ABOUT</Link>
+              <Link to='/projects'><FontAwesomeIcon icon={faFileCode} /> PROJECTS</Link>
+              <Link to='/contact'><FontAwesomeIcon icon={faPhoneSquare} /> CONTACT</Link>
             </nav>
           </div>
         </div>
