@@ -10,9 +10,9 @@ const Banner = () => {
   return (
     <div className='banner'>
       <div className='fixed-contacts'>
-        <FontAwesomeIcon icon={faGithubSquare} />
-        <FontAwesomeIcon icon={faLinkedin} />
-        <FontAwesomeIcon icon={faFile} />
+        <a href='https://github.com/lawwwlin' target='blank'><FontAwesomeIcon icon={faGithubSquare} /></a>
+        <a href='https://www.linkedin.com/in/lawrence-lin-vancouver/' target='blank'><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href='https://resume.creddle.io/resume/6pb2h22k1x1' target='blank'><FontAwesomeIcon icon={faFile} /></a>
       </div>
       <div className='container'>
         <div className='row'>
