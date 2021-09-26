@@ -117,13 +117,15 @@ header {
       font-size: 4rem;
     }
     @media(max-width:976px) {
-      font-size: 3rem;
-    }
-    @media(max-width:768px) {
-      font-size: 1.5rem;
-      letter-spacing: 10px;
-      font-weight: 500;
-      min-width: 360px;
+      .text-intro {
+        font-size: 2rem;
+      }
+      .text-name {
+        font-size: 4rem;
+      }
+      .text-about {
+        font-size: 3rem;
+      }
     }
   }
   .fixed-contacts {
@@ -145,6 +147,9 @@ header {
       }
     }
     @media(max-width:976px) {
+      left: 25px;
+    }
+    @media(max-width:768px) {
       display: none;
     }
   }
@@ -152,7 +157,7 @@ header {
     position: fixed;
     padding: 0.5em;
     bottom: 50%;
-    right: -50px;
+    right: -70px;
     color: rgb(182, 181, 181);
     border: 0.5px solid transparent;
     font-size: 20px;
@@ -174,6 +179,9 @@ header {
       }
     }
     @media(max-width:976px) {
+      right: -80px;
+    }
+    @media(max-width:768px) {
       display: none;
     }
   }
