@@ -1,3 +1,9 @@
+$black: rgb(34, 40, 49);
+$dark: rgb(57, 62, 70);
+$teal: rgb(0, 173, 181);
+$grey: rgb(133, 131, 131);
+$white: rgb(238, 238, 238);
+
 p {
   color: maroon;
   font-size: larger;
@@ -6,7 +12,7 @@ p {
 html,
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(34, 40, 49);
+  background-color: $black;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -42,7 +48,7 @@ header {
   position: absolute;
   top: 0px;
   z-index: 10;
-  background-color: rgb(24, 55, 85);
+  background-color: $dark;
   opacity: 90%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   .inner-header {
@@ -53,13 +59,13 @@ header {
     .logo {
       a {
         padding: 0.5em;
-        border: 0.5px solid rgb(0, 173, 181);
+        border: 0.5px solid $teal;
         font-weight: 700;
         text-decoration: none;
         letter-spacing: 1.5px;
-        color: rgb(0, 173, 181);
+        color: $teal;
         &:hover {
-          background-color: rgb(34, 40, 49);
+          background-color: $black;
         }
       }
     }
@@ -73,18 +79,18 @@ header {
           letter-spacing: 1.75px;
           text-transform: uppercase;
           font-size: 0.75em;
-          color: white;
+          color: $white;
           svg {
-            color:rgb(0, 173, 181);
+            color:$teal;
           };
           &:last-child {
             margin-right: 0px;
           };
           &:hover {
-            color: rgb(0, 173, 181);
+            color: $teal;
           };
           &:active {
-            border: 0.5px solid rgb(0, 173, 181);
+            border: 0.5px solid $teal;
           };
         }
       }
@@ -96,7 +102,7 @@ header {
 .banner {
   display: flex;
   align-items: center;
-  background-color: rgb(34, 40, 49);
+  background-color: $black;
   position: relative;
   height: 100vh;
   .main-text {
@@ -109,15 +115,15 @@ header {
     text-align: center;
     z-index: 8;
     .text-intro {
-      color: white;
+      color: $white;
       font-size: 3rem;
     }
     .text-name {
-      color: rgb(0, 173, 181);
+      color: $teal;
       font-size: 5.2rem;
     }
     .text-about {
-      color: rgb(57, 62, 70);
+      color: $grey;
       font-size: 4rem;
     }
     @media(max-width:976px) {
@@ -145,9 +151,9 @@ header {
       margin-bottom: 30px;
       text-decoration: none;
       letter-spacing: 1.75px;
-      color: rgb(57, 62, 70);
+      color: $grey;
       &:hover {
-        color: rgb(0, 173, 181);
+        color: $teal;
         transform: translateY(-5px);
       }
     }
@@ -163,24 +169,24 @@ header {
     padding: 0.5em;
     top: 50%;
     right: -70px;
-    color: rgb(57, 62, 70);
+    color: $grey;
     border: 0.5px solid transparent;
     font-size: 20px;
     letter-spacing: 1.75px;
     transform: rotate(90deg);
     z-index: 10;
     &:hover {
-      color: rgb(0, 173, 181);
+      color: $teal;
       transform: rotate(90deg) translateX(-5px);
     }
     &:active {
-      border: 0.5px solid rgb(0, 173, 181);
+      border: 0.5px solid $teal;
     }
     a {
       text-decoration: none;
-      color: rgb(57, 62, 70);
+      color: $grey;
       &:hover {
-        color: rgb(0, 173, 181);
+        color: $teal;
       }
     }
     @media(max-width:976px) {
