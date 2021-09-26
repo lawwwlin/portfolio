@@ -15,8 +15,10 @@ const Banner = () => {
         <a href='https://resume.creddle.io/resume/6pb2h22k1x1' target='blank'><FontAwesomeIcon icon={faFileAlt} /></a>
       </div>
       <div className='container'>
-        <div className='row'>
-          <div className='main-text'>Lawrence Lin</div>
+        <div className='main-text'>
+          <div className='text-intro'>hi, my name is</div>
+          <div className='text-name'>Lawrence Lin.</div>
+          <div className='text-about'>I'm a full-stack web developer.</div>
         </div>
       </div>
       <a href='https://google.ca' target='blank'><div className='fixed-email'><h3>lawwwlin@gmail.com</h3></div></a>

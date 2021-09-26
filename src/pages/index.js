@@ -11,8 +11,6 @@ const IndexPage = () => {
       <title>Lawrence Lin</title>
       <Header />
       <Banner />
-      {/* <h1>Hi, I'm Lawrence Lin</h1>
-      <h2>I'm a full-stack web developer</h2> */}
     </div>
   );
 };
