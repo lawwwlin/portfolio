@@ -43,6 +43,7 @@ header {
   top: 0px;
   z-index: 10;
   background-color: rgb(49, 101, 197);
+  opacity: 80%;
   .inner-header {
     display: flex;
     align-items: center;
@@ -57,13 +58,15 @@ header {
         letter-spacing: 1.5px;
         color: rgb(51, 243, 217);
         &:hover {
-          background-color: rgb(46, 96, 189);
+          background-color: rgb(36, 85, 175);
         }
       }
     }
     .navigation {
       nav {
         a {
+          padding: 0.5em;
+          border: 0.5px solid transparent;
           margin: 0 20px;
           text-decoration: none;
           letter-spacing: 1.75px;
@@ -76,6 +79,9 @@ header {
           &:hover {
             color: rgb(51, 243, 217);
           }
+          &:active {
+            border: 0.5px solid rgb(51, 243, 217);
+          }
         }
       }
     };
@@ -86,7 +92,7 @@ header {
 .banner {
   display: flex;
   align-items: center;
-  background-color: rgb(49, 101, 197);
+  background-color: rgb(36, 34, 34);
   position: relative;
   height: 100vh;
   .main-text {
@@ -99,11 +105,11 @@ header {
     text-align: center;
     z-index: 8;
     .text-intro {
-      color: rgb(51, 243, 217);
+      color: white;
       font-size: 3rem;
     }
     .text-name {
-      color: white;
+      color: rgb(51, 243, 217);
       font-size: 5.2rem;
     }
     .text-about {
@@ -124,33 +130,51 @@ header {
     position: fixed;
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
     bottom: 50%;
     left: 40px;
     z-index: 10;
+    a {
+      text-decoration: none;
+      letter-spacing: 1.75px;
+      color: rgb(182, 181, 181);
+      &:hover {
+        color: rgb(51, 243, 217);
+        transform: translateY(-5px);
+      }
+    }
     @media(max-width:976px) {
       display: none;
     }
   }
   .fixed-email {
     position: fixed;
+    padding: 0.5em;
     bottom: 50%;
-    right: -30px;
-    transform: rotate(90deg);
-    font-weight: 500;
-    text-transform: lowercase;
-    z-index: 10;
-    @media(max-width:976px) {
-      display: none;
-    }
-  }
-  a {
-    text-decoration: none;
-    letter-spacing: 1.75px;
+    right: -50px;
     color: rgb(182, 181, 181);
+    border: 0.5px solid transparent;
+    font-size: 20px;
+    letter-spacing: 1.75px;
+    transform: rotate(90deg);
+    z-index: 10;
     &:hover {
       color: rgb(51, 243, 217);
-      transform: translateY(-5px);
+      transform: rotate(90deg) translateX(-5px);
+    }
+    &:active {
+      border: 0.5px solid rgb(51, 243, 217);
+    }
+    a {
+      text-decoration: none;
+      color: rgb(182, 181, 181);
+      &:hover {
+        color: rgb(51, 243, 217);
+      }
+    }
+    @media(max-width:976px) {
+      display: none;
     }
   }
 }

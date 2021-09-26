@@ -21,7 +21,7 @@ const Banner = () => {
           <div className='text-about'>I'm a full-stack web developer.</div>
         </div>
       </div>
-      <div className='fixed-email'><a href='https://google.ca' target='blank'><h3>lawwwlin@gmail.com</h3></a></div>
+      <div className='fixed-email'><a href='https://google.ca' target='blank'>lawwwlin@gmail.com</a></div>
     </div>
   );
 };
