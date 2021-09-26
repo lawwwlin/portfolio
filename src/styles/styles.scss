@@ -43,7 +43,8 @@ header {
   top: 0px;
   z-index: 10;
   background-color: rgb(49, 101, 197);
-  opacity: 80%;
+  opacity: 90%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   .inner-header {
     display: flex;
     align-items: center;
@@ -73,15 +74,18 @@ header {
           text-transform: uppercase;
           font-size: 0.75em;
           color: white;
+          svg {
+            color:rgb(51, 243, 217);
+          };
           &:last-child {
             margin-right: 0px;
-          }
+          };
           &:hover {
             color: rgb(51, 243, 217);
-          }
+          };
           &:active {
             border: 0.5px solid rgb(51, 243, 217);
-          }
+          };
         }
       }
     };
