@@ -5,6 +5,7 @@ import '../styles/styles.scss';
 import Header from '../components/header';
 import Banner from '../components/banner';
 import About from '../components/about';
+import Projects from '../components/projects';
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <Header />
       <Banner />
       <About />
+      <Projects />
     </div>
   );
 };

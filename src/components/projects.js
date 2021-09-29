@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 
-const About = () => {
+const Projects = () => {
   return (
-    <div className="about">
+    <div className="projects">
       <div className="container">
         <div className="main-text">
           <div className="text-intro" id='projects'>
@@ -17,4 +17,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Projects;
