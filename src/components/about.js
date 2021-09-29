@@ -3,10 +3,10 @@ import { Link } from 'gatsby';
 
 const About = () => {
   return (
-    <div className="about" id='about'>
+    <div className="about">
       <div className="container">
         <div className="main-text">
-          <div className="text-intro">
+          <div className="text-intro" id='about'>
             Full-stack Web Developer, studied basic algorithms and data
             structures while pursuing an undergraduate degree in Mathematics.
             In-depth understanding of programming skills including but not
