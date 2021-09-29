@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id='about'>
       <div className="container">
         <div className="main-text">
           <div className="text-intro">
