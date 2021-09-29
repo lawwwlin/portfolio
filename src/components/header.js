@@ -13,7 +13,7 @@ const Header = () => {
           </div>
           <div className='navigation'>
             <nav>
-              <Link to='/about'><FontAwesomeIcon icon={faInfoCircle} /> ABOUT</Link>
+              <Link to='/#about'><FontAwesomeIcon icon={faInfoCircle} /> ABOUT</Link>
               <Link to='/projects'><FontAwesomeIcon icon={faLaptopCode} /> PROJECTS</Link>
               <Link to='/contact'><FontAwesomeIcon icon={faPhoneSquare} /> CONTACT</Link>
             </nav>
