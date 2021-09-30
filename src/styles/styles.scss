@@ -1,7 +1,7 @@
 $black: rgb(34, 40, 49);
 $dark: rgb(57, 62, 70);
 $teal: rgb(0, 173, 181);
-$grey: rgb(133, 131, 131);
+$grey: rgb(155, 155, 155);
 $white: rgb(238, 238, 238);
 
 p {
@@ -217,6 +217,11 @@ header {
     padding-top: 2em;
     color: $grey;
     font-size: 1.5rem;
+    ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
   }
   @media(max-width:976px) {
     .text-header {
