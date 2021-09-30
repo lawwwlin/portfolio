@@ -16,7 +16,7 @@ const Banner = () => {
       </div>
       <div className='container'>
         <div className='main-text'>
-          <div className='text-intro'>hi, my name is</div>
+          <div className='text-header'>hi, my name is</div>
           <div className='text-name'>Lawrence Lin.</div>
           <div className='text-about'>I'm a full-stack web developer.</div>
         </div>
