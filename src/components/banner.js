@@ -18,7 +18,8 @@ const Banner = () => {
         <div className='main-text'>
           <div className='text-header'>hi, my name is</div>
           <div className='text-name'>Lawrence Lin.</div>
-          <div className='text-about'>I'm a full-stack web developer.</div>
+          <div className='text-about'>I am a full-stack web developer. <br />
+          Passionate and eager to learn new technologies and frameworks.</div>
         </div>
       </div>
       <div className='fixed-email'><a href='https://google.ca' target='blank'>lawwwlin@gmail.com</a></div>
