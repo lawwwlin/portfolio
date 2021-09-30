@@ -20,33 +20,33 @@ body {
 };
 
 .container {
-  width: auto;
+  width: 1640px;
   min-width: 1640px;
   margin: 0 auto;
   @media(max-width:1440px) {
-    width: auto;
+    width: 1280px;
     min-width: 1280px;
   }
   @media(max-width:1280px) {
-    width: auto;
+    width: 976px;
     min-width: 976px;
   }
   @media(max-width:976px) {
-    width: auto;
+    width: 768px;
     min-width: 768px;
   }
   @media(max-width:768px) {
-    width: auto;
+    width: 360px;
     min-width: 360px;
   }
 };
 
 .main-text {
-  width: 70%;
+  width: 80%;
   font-size: 2rem;
   top: 50%;
   margin: auto;
-  padding: 4em 2em;
+  padding: 4em 0;
   text-align: left;
   z-index: 8;
   @media(max-width:768px) {
