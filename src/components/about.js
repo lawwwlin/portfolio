@@ -5,10 +5,14 @@ const About = () => {
   return (
     <div className="about">
       <div className="container">
-        <div className="main-text">
-          <div className="text-intro" id='about'>
-            Full-stack Web Developer, studied basic algorithms and data
-            structures while pursuing an undergraduate degree in Mathematics.
+        <div className="main-text" id='about'>
+          <div className="text-header">
+            About Me
+          </div>
+          <div className="text-about">
+            I am a full-stack web developer, interested in learning new technologies and finding efficient ways to <br />
+            
+            studied basic algorithms and data structures while pursuing an undergraduate degree in Mathematics.
             In-depth understanding of programming skills including but not
             limited to: front-end development with React and HTML/CSS, back-end
             with NodeJS and ​PostgreSQL. Enjoys problem solving and
@@ -16,8 +20,6 @@ const About = () => {
             knowledge. Passionate and eager to learn new technologies and
             frameworks
           </div>
-          <div className="text-name"></div>
-          <div className="text-about"></div>
         </div>
       </div>
     </div>
