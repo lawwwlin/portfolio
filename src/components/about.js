@@ -14,11 +14,18 @@ const About = () => {
             <br /><br />
             I have strong critical thinking and problem solving skills from my Mathematics background, and after graduation, I pursued my interest in programming by taking the Lighthouse Labs web development bootcamp.
             <br /><br />
-            In-depth understanding of programming skills including but not
-            limited to: front-end development with React and HTML/CSS, back-end
-            with NodeJS and ​PostgreSQL. Enjoys problem solving and
-            communicating with other developers to enhance programming
-            knowledge.
+            From the bootcamp, I experienced various aspects of web development and learned the basic skills to contribute or develop a web application.
+            <br /><br />
+            These are some of the tech stacks that I've used:
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+              <li>ActiveRecord</li>
+            </ul>
           </div>
         </div>
       </div>
